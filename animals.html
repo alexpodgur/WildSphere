@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Наши животные — WildSphere</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animals.css">
+</head>
+<body>
+
+<header>
+    <div class="nav">
+        <a class="logo" href="index.html" aria-label="На главную">
+            <div class="logo-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trees-icon lucide-trees">
+                    <path d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z"/>
+                    <path d="M7 16v6"/>
+                    <path d="M13 19v3"/>
+                    <path d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5"/>
+                </svg>
+            </div>
+            <div class="logo-name">WildSphere</div>
+        </a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Меню">
+        <label for="menu-toggle" class="burger">
+            <span></span><span></span><span></span>
+        </label>
+        <nav id="site-menu" class="nav-links">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="animals.html" class="nav-link active">Животные</a>
+            <a href="ticket.html" class="nav-link">Билеты</a>
+            <a href="info.html" class="nav-link">О нас</a>
+            <a href="contacts.html" class="nav-link">Контакты</a>
+        </nav>
+    </div>
+</header>
+
+<section class="animals-hero">
+    <div class="animals-hero-inner">
+        <h1 class="animals-title">Наши животные</h1>
+        <p class="animals-subtitle">Познакомьтесь с удивительными обитателями нашего зоопарка</p>
+    </div>
+</section>
+
+<section class="animals-section">
+    <div class="animals-grid" aria-live="polite">
+        <a class="animal-card animal-card-link" href="animal.html?id=lion">
+            <img src="images/lion.jpg" alt="Лев" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Лев</h2>
+                <p class="animal-latin">Panthera leo</p>
+                <p class="animal-desc">Царь зверей, крупная хищная кошка из семейства кошачьих.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=elephant">
+            <img src="images/elephant.jpg" alt="Слон" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Слон</h2>
+                <p class="animal-latin">Loxodonta africana</p>
+                <p class="animal-desc">Самое крупное наземное млекопитающее на планете.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=panda">
+            <img src="images/panda.jpg" alt="Панда" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Панда</h2>
+                <p class="animal-latin">Ailuropoda melanoleuca</p>
+                <p class="animal-desc">Редкий вид медведя, символ защиты природы.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=giraffe">
+            <img src="images/giraffe.jpg" alt="Жираф" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Жираф</h2>
+                <p class="animal-latin">Giraffa camelopardalis</p>
+                <p class="animal-desc">Самое высокое наземное животное в мире.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=tiger">
+            <img src="images/tiger.jpg" alt="Тигр" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Тигр</h2>
+                <p class="animal-latin">Panthera tigris</p>
+                <p class="animal-desc">Крупнейший представитель семейства кошачьих.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=zebra">
+            <img src="images/zebra.jpg" alt="Зебра" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Зебра</h2>
+                <p class="animal-latin">Equus quagga</p>
+                <p class="animal-desc">Африканское животное с характерными чёрно-белыми полосами.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=gorilla">
+            <img src="images/gorilla.jpg" alt="Горилла" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Горилла</h2>
+                <p class="animal-latin">Gorilla gorilla</p>
+                <p class="animal-desc">Крупнейшая человекообразная обезьяна, обитающая в Африке.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=penguin">
+            <img src="images/penguin.jpg" alt="Пингвин" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Пингвин</h2>
+                <p class="animal-latin">Spheniscidae</p>
+                <p class="animal-desc">Нелетающая морская птица, отличный пловец.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=kangaroo">
+            <img src="images/kangaroo.jpg" alt="Кенгуру" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Кенгуру</h2>
+                <p class="animal-latin">Macropus rufus</p>
+                <p class="animal-desc">Сумчатое млекопитающее, символ Австралии.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=flamingo">
+            <img src="images/flamingo.jpg" alt="Фламинго" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Фламинго</h2>
+                <p class="animal-latin">Phoenicopterus roseus</p>
+                <p class="animal-desc">Элегантная птица с ярким розовым оперением.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=polar-bear">
+            <img src="images/polar-bear.jpg" alt="Белый медведь" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Белый медведь</h2>
+                <p class="animal-latin">Ursus maritimus</p>
+                <p class="animal-desc">Крупнейший наземный хищник, обитающий в Арктике.</p>
+            </div>
+        </a>
+        <a class="animal-card animal-card-link" href="animal.html?id=crocodile">
+            <img src="images/crocodile.jpg" alt="Крокодил" class="animal-image">
+            <div class="animal-body">
+                <h2 class="animal-name">Крокодил</h2>
+                <p class="animal-latin">Crocodylus niloticus</p>
+                <p class="animal-desc">Древняя рептилия, один из самых опасных хищников.</p>
+            </div>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-columns">
+            <div>
+                <div class="footer-title">О зоопарке</div>
+                <p class="footer-text">
+                    Мы создаем комфортные условия для животных и делимся знаниями о дикой природе с нашими гостями.
+                </p>
+            </div>
+            <div>
+                <div class="footer-title">Контакты</div>
+                <p class="footer-text">
+                    Телефон: +375 (29) 233-95-89<br>
+                    Email: <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=info.zooparkk@gmail.com" target="_blank" rel="noopener noreferrer">info.zooparkk@gmail.com</a>
+                </p>
+            </div>
+            <div>
+                <div class="footer-title">Часы работы</div>
+                <p class="footer-text">
+                    Ежедневно: 9:00 – 19:00<br>
+                    Касса: 9:00 – 18:00
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 WildSphere. Все права защищены.
+        </div>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
