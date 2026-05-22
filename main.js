@@ -1,3 +1,4 @@
+// инициализация
 document.addEventListener("DOMContentLoaded", () => {
   setupContactFormValidation();
   setupMessageCounter();
@@ -6,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   setupHomeHeaderScroll();
 });
 
-/** На главной: прозрачная шапка вверху страницы, после прокрутки — обычный тёмный фон */
+/** шапка сайта */
 function setupHomeHeaderScroll() {
   if (!document.body.classList.contains("page-home")) return;
   const header = document.querySelector("header");
@@ -23,6 +24,7 @@ function setupHomeHeaderScroll() {
   window.addEventListener("scroll", update, { passive: true });
 }
 
+/** форма */
 function setupContactFormValidation() {
   const form = document.querySelector(".contact-form");
   if (!form) return;
@@ -98,6 +100,7 @@ function setupContactFormValidation() {
   });
 }
 
+/** поле сообщения */
 function setupMessageCounter() {
   const messageField = document.querySelector("#message");
   const counter = document.querySelector("#message-counter");
@@ -112,6 +115,7 @@ function setupMessageCounter() {
   updateCounter();
 }
 
+/** животное */
 async function setupAnimalDetailPage() {
   const detailContainer = document.querySelector("#animal-detail");
   if (!detailContainer) return;
@@ -171,6 +175,7 @@ async function setupAnimalDetailPage() {
   }
 }
 
+/** животное: id */
 function normalizeAnimalId(imagePath) {
   return imagePath
     .split("/")
@@ -178,6 +183,7 @@ function normalizeAnimalId(imagePath) {
     .replace(/\.[^.]+$/, "");
 }
 
+/** животное: ошибка */
 function renderAnimalError(container, message) {
   container.innerHTML = `
     <p class="animal-error">${message}</p>
@@ -185,6 +191,7 @@ function renderAnimalError(container, message) {
   `;
 }
 
+/** FAQ */
 function setupFaqAccordion() {
   const faqItems = Array.from(document.querySelectorAll(".faq-item"));
   if (!faqItems.length) return;

@@ -55,7 +55,7 @@ a.feature-btn {
   box-sizing: border-box;
 }
 
-/* Шапка */
+/* шапка сайта */
 
 header {
   background-color: $bg-dark;
@@ -158,7 +158,7 @@ body.page-home header {
   }
 }
 
-/* Бургер-меню для телефонов */
+/* бургер-меню */
 .menu-toggle {
   display: none;
 }
@@ -203,7 +203,7 @@ body.page-home header {
   outline-offset: 2px;
 }
 
-/* Hero */
+/* главный баннер */
 
 .hero {
   position: relative;
@@ -318,7 +318,7 @@ body.page-home header {
   }
 }
 
-/* Инфо-блоки */
+/* информационные карточки */
 
 .info-strip {
   background-color: #EEEEEE;
@@ -384,7 +384,7 @@ body.page-home header {
   }
 }
 
-/* Блок "Исследуйте мир животных" */
+/* блок «Исследуйте мир животных» */
 
 .section {
   background-color: #EEEEEE;
@@ -443,7 +443,7 @@ body.page-home header {
   }
 }
 
-/* Блок "Сохраним природу вместе" */
+/* блок «Сохраним природу вместе» */
 
 .feature {
   background-color: $bg-card;
@@ -523,7 +523,7 @@ body.page-home header {
   }
 }
 
-/* Футер */
+/* подвал сайта */
 
 footer {
   background-color: $bg-dark-footer;
@@ -583,7 +583,7 @@ footer {
   }
 }
 
-/* Адаптивность */
+/* адаптивные стили (общие) */
 
 @media (max-width: 900px) {
   .info-strip {
@@ -611,17 +611,6 @@ footer {
     .footer-columns {
       grid-template-columns: 1fr;
       text-align: left;
-    }
-  }
-
-  .feature {
-    .feature-inner {
-      grid-template-columns: 1fr;
-      gap: 22px;
-    }
-
-    .feature-media {
-      justify-content: flex-start;
     }
   }
 }
@@ -683,6 +672,15 @@ footer {
   }
 
   .feature {
+    .feature-inner {
+      grid-template-columns: 1fr;
+      gap: 22px;
+    }
+
+    .feature-media {
+      justify-content: flex-start;
+    }
+
     .feature-title {
       text-align: center;
     }

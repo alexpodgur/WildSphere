@@ -4,6 +4,7 @@ $bg: #f3f3f3;
 $green: #175f35;
 $card: #dceadf;
 
+/* заголовок страницы контактов */
 .contacts-hero {
   background: $green;
   color: #EEEEEE;
@@ -30,6 +31,7 @@ $card: #dceadf;
   color: rgba(238, 238, 238, 0.88);
 }
 
+/* страница контактов */
 .contacts-page {
   background: $bg;
   padding: 40px 20px 50px;
@@ -53,6 +55,7 @@ $card: #dceadf;
   }
 }
 
+/* контакт */
 .contact-card {
   background: $card;
   border-radius: 10px;
@@ -101,6 +104,7 @@ $card: #dceadf;
   }
 }
 
+/* форма */
 .contact-form {
   background: #EEEEEE;
   border: 1px solid #e8e8e8;

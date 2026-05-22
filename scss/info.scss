@@ -4,6 +4,7 @@ $bg: #f3f3f3;
 $green: #175f35;
 $card: #dceadf;
 
+/* заголовок страницы «О нас» */
 .info-hero {
   background: $green;
   color: #EEEEEE;
@@ -33,6 +34,7 @@ $card: #dceadf;
   color: rgba(238, 238, 238, 0.88);
 }
 
+/* страница «О нас» */
 .info-page {
   background: $bg;
   padding: 42px 20px 40px;
@@ -73,6 +75,7 @@ $card: #dceadf;
   gap: 18px;
 }
 
+/* ценность зоопарка (карточка) */
 .value-card {
   background: $card;
   border-radius: 12px;
@@ -123,6 +126,7 @@ $card: #dceadf;
   }
 }
 
+/* достижения зоопарка */
 .achievements {
   max-width: 760px;
   background: $green;
@@ -164,6 +168,7 @@ $card: #dceadf;
   }
 }
 
+/* FAQ */
 .faq {
   max-width: 760px;
   margin: 0 auto 46px;

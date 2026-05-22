@@ -5,6 +5,7 @@ $ticket-accent: #f7d500;
 $ticket-bg: #f3f3f3;
 $ticket-heading-font: "Segoe UI", system-ui, -apple-system, "Segoe UI Symbol", Roboto, sans-serif;
 
+/* заголовок страницы билетов */
 .ticket-hero {
   background-color: $ticket-green;
   color: #EEEEEE;
@@ -37,6 +38,7 @@ $ticket-heading-font: "Segoe UI", system-ui, -apple-system, "Segoe UI Symbol", R
   }
 }
 
+/* тарифы билетов */
 .tickets-section {
   background-color: $ticket-bg;
   padding: 52px 0 40px;
@@ -51,6 +53,7 @@ $ticket-heading-font: "Segoe UI", system-ui, -apple-system, "Segoe UI Symbol", R
   gap: 18px;
 }
 
+/* билет */
 .ticket-card {
   position: relative;
   background-color: #EEEEEE;
@@ -204,6 +207,7 @@ a.ticket-btn {
   }
 }
 
+/* важная информация */
 .ticket-info {
   background-color: $ticket-bg;
   padding: 24px 0 64px;
